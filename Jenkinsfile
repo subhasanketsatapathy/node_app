@@ -1,6 +1,6 @@
 pipeline {
     environment { 
-        registry = "subhasanket/test" 
+        registry = "subhasanket/mynodecontainer" 
         registryCredential = 'docker_id' 
         dockerImage = '' 
     }
